@@ -131,6 +131,18 @@ h6 {
   padding: 15px;
   min-width: 200px;
 }
+.menu__sub-list li {
+  margin: 0 0 10px 0;
+}
+
+.menu__sub-list li:last-child {
+  margin: 0;
+}
+
+.menu__sub-link:hover {
+  text-decoration: underline;
+}
+
 .menu__sub-link {
   color: aliceblue;
 }
@@ -142,6 +154,13 @@ h6 {
   }
   .menu__list > li {
     padding: 10px 0;
+  }
+  .menu__sub-list {
+    transform: translate(0px, 10%);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: all 0.3s ease 0s;
   }
 }
 .wrapper {
