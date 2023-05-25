@@ -223,6 +223,10 @@ body._touch .menu__list > li._active .menu__arrow {
   background-color: burlywood;
 }
 
+.page {
+  padding: 90px 0 30px 0;
+}
+
 .page__section {
   padding: 30px;
   max-width: 1200px;
